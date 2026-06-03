@@ -26,7 +26,7 @@ const Candle = ({
           >
             {/* Outer flame */}
             <motion.div
-              className="w-3 h-5 rounded-full bg-gradient-to-t from-orange-500 via-yellow-400 to-yellow-200"
+              className="w-3 h-5 rounded-full bg-linear-to-t from-orange-500 via-yellow-400 to-yellow-200"
               animate={{
                 scaleY: [1, 1.1, 0.95, 1],
                 scaleX: [1, 0.9, 1.05, 1],
@@ -43,7 +43,7 @@ const Candle = ({
             />
             {/* Inner flame */}
             <motion.div
-              className="absolute bottom-0 w-1.5 h-3 rounded-full bg-gradient-to-t from-blue-200 to-yellow-100"
+              className="absolute bottom-0 w-1.5 h-3 rounded-full bg-linear-to-t from-blue-200 to-yellow-100"
               animate={{
                 scaleY: [1, 1.15, 0.9, 1],
               }}
@@ -257,7 +257,7 @@ export default function BirthdayCake() {
             }}
           >
             {/* Glitter effect */}
-            <div className="absolute inset-0 bg-gradient-to-r from-transparent via-[#D4AF37]/20 to-transparent animate-shimmer" />
+            <div className="absolute inset-0 bg-linear-to-r from-transparent via-[#D4AF37]/20 to-transparent animate-shimmer" />
             {/* Decorative line */}
             <div className="absolute bottom-2 left-0 right-0 h-1 bg-[#D4AF37]/50" />
             <div className="absolute top-2 left-0 right-0 h-0.5 bg-[#D4AF37]/30" />
@@ -271,7 +271,7 @@ export default function BirthdayCake() {
               boxShadow: "inset 0 -5px 15px rgba(0,0,0,0.1), 0 5px 20px rgba(212, 175, 55, 0.3)",
             }}
           >
-            <div className="absolute inset-0 bg-gradient-to-r from-transparent via-[#D4AF37]/20 to-transparent animate-shimmer" />
+            <div className="absolute inset-0 bg-linear-to-r from-transparent via-[#D4AF37]/20 to-transparent animate-shimmer" />
             {/* Rose decorations */}
             <div className="absolute top-3 left-4 text-lg">🌹</div>
             <div className="absolute top-3 right-4 text-lg">🌹</div>
@@ -286,10 +286,10 @@ export default function BirthdayCake() {
               boxShadow: "inset 0 -5px 15px rgba(0,0,0,0.1), 0 8px 30px rgba(212, 175, 55, 0.4)",
             }}
           >
-            <div className="absolute inset-0 bg-gradient-to-r from-transparent via-[#D4AF37]/20 to-transparent animate-shimmer" />
+            <div className="absolute inset-0 bg-linear-to-r from-transparent via-[#D4AF37]/20 to-transparent animate-shimmer" />
             {/* Gold band */}
-            <div className="absolute top-4 left-0 right-0 h-2 bg-gradient-to-r from-[#D4AF37]/30 via-[#D4AF37] to-[#D4AF37]/30" />
-            <div className="absolute bottom-4 left-0 right-0 h-2 bg-gradient-to-r from-[#D4AF37]/30 via-[#D4AF37] to-[#D4AF37]/30" />
+            <div className="absolute top-4 left-0 right-0 h-2 bg-linear-to-r from-[#D4AF37]/30 via-[#D4AF37] to-[#D4AF37]/30" />
+            <div className="absolute bottom-4 left-0 right-0 h-2 bg-linear-to-r from-[#D4AF37]/30 via-[#D4AF37] to-[#D4AF37]/30" />
           </div>
 
           {/* Cake plate */}

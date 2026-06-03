@@ -339,7 +339,7 @@ export default function HeroSection() {
 
           {/* Decorative line */}
           <motion.div
-            className="mt-6 mx-auto w-32 h-0.5 bg-gradient-to-r from-transparent via-[#D4AF37] to-transparent"
+            className="mt-6 mx-auto w-32 h-0.5 bg-linear-to-r from-transparent via-[#D4AF37] to-transparent"
             initial={{ scaleX: 0 }}
             animate={{ scaleX: 1 }}
             transition={{ duration: 1, delay: 1 }}

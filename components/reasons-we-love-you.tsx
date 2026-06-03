@@ -147,7 +147,7 @@ export default function ReasonsWeLoveYou() {
   ];
 
   return (
-    <section className="relative min-h-screen py-20 px-4 overflow-hidden bg-gradient-to-b from-[#FFF0F5] to-[#FFE4EC]">
+    <section className="relative min-h-screen py-20 px-4 overflow-hidden bg-linear-to-b from-[#FFF0F5] to-[#FFE4EC]">
       {/* Floating cake pieces */}
       {floatingCakes.map((cake, i) => (
         <FloatingCake 
@@ -196,7 +196,7 @@ export default function ReasonsWeLoveYou() {
             A Few Reasons We Put Up With You 😉
           </h2>
           <motion.div
-            className="mx-auto w-24 h-0.5 bg-gradient-to-r from-transparent via-[#D4AF37] to-transparent"
+            className="mx-auto w-24 h-0.5 bg-linear-to-r from-transparent via-[#D4AF37] to-transparent"
             initial={{ scaleX: 0 }}
             whileInView={{ scaleX: 1 }}
             viewport={{ once: true }}
